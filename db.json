@@ -1,12 +1,13 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "company": [
+    { "id": 1, "shortName": "Apple" },
+    { "id": 2, "shortName": "Microsoft" },
+    { "id": 3, "shortName": "Adidas" }
   ],
-  "comment": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "ratings": [
+    { "id": 1, "companyId": 1, "Moody": "Aaa" },
+    { "id": 2, "companyId": 2, "Moody": "Aaa" },
+    { "id": 3, "companyId": 3, "Moody": "Bbb" }
   ],
   "profile": {
     "name": "typicode"
