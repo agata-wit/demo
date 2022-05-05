@@ -1,13 +1,274 @@
 {
-  "company": [
-    { "id": 1, "shortName": "Apple" },
-    { "id": 2, "shortName": "Microsoft" },
-    { "id": 3, "shortName": "Adidas" }
+  "companies": [
+    {
+      "id": "1",
+      "longname": "Apple Inc.",
+      "address": "One Apple Park Way. Cupertino, CA 95014. United States",
+      "countryOfRegistration": "US",
+      "shortname": "Apple"
+     },
+     {
+      "id": "2",
+      "longname": "Bosch AG",
+      "address": "Main Strasse 45, 10-159 Berlin, Germany",
+      "countryOfRegistration": "DE",
+      "shortname": "Bosch"
+     },
+     {
+      "id": "3",
+      "longname": "Microsoft Corporation",
+      "address": "One Microsoft Way, Redmond, WA, USA",
+      "countryOfRegistration": "US",
+      "shortname": "Microsoft"
+     },
+     {
+      "id": "4",
+      "longname": "Amazon.com Inc.",
+      "address": "440 Terry Avenue North Seattle, WA 98109 USA",
+      "countryOfRegistration": "US",
+      "shortname": "Amazon"
+     },
+     {
+      "id": "5",
+      "longname": "Adidas AG",
+      "address": "Adi-Dassler-Strasse 1, 91074 Herzogenaurach, Germany",
+      "countryOfRegistration": "DE",
+      "shortname": "Adidas"
+     },
+     {
+      "id": "6",
+      "longname": "Anheuser-Busch InBev SA",
+      "address": "Brouwerijplein, 1 Leuven, 3000 Belgium",
+      "countryOfRegistration": "BE",
+      "shortname": "AB InBev"
+     },
+     {
+      "id": "7",
+      "longname": "KGHM Polska Miedz S.A.",
+      "address": "ul. M. Skłodowskiej-Curie 48, 59-301 Lubin, Polska",
+      "countryOfRegistration": "PL",
+      "shortname": "KGHM"
+     }
   ],
   "ratings": [
-    { "id": 1, "companyId": 1, "Moody": "Aaa" },
-    { "id": 2, "companyId": 2, "Moody": "Aaa" },
-    { "id": 3, "companyId": 3, "Moody": "Bbb" }
+    {
+      "id": 1,
+      "companyId": 1,
+      "StandardPoor": "AAA",
+      "Moody": "Aaa"
+     },
+     {
+      "id": 2,
+      "comapnyId": 7,
+      "StandardPoor": "BBB",
+      "Moody": "Bbb"
+     },
+     {
+      "id": 3,
+      "companyId": 2,
+      "StandardPoor": "AA+",
+      "Moody": "Aaa"
+     },
+     {
+      "id": 4,
+      "companyId": 6,
+      "StandardPoor": "BB+",
+      "Moody": "Bb"
+     },
+     {
+      "id": 5,
+      "companyId": 3,
+      "StandardPoor": "AAA",
+      "Moody": "Aaa"
+     },
+     {
+      "id": 6,
+      "companyId": 5,
+      "StandardPoor": "AA+",
+      "Moody": "Aaa"
+     },
+     {
+      "id": 7,
+      "companyId": 4,
+      "StandardPoor": "BB+"
+     }
+  ],
+  "financials": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "1.038",
+          "PEratio": "21.91",
+          "earnings": "395857000000",
+          "EPS": "6.17"
+        },
+        {
+          "year": 2020,
+          "DEratio": "1.5",
+          "PEratio": "28.91",
+          "earnings": "415857000000",
+          "EPS": "8.17"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "companyId": 2,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "0.84",
+          "PEratio": "11.23",
+          "earnings": "95976000000",
+          "EPS": "2.36"
+        },
+        {
+          "year": 2020,
+          "DEratio": "1.14",
+          "PEratio": "15.23",
+          "earnings": "87876000000",
+          "EPS": "3.39"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "companyId": 3,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "2.247",
+          "PEratio": "33.95",
+          "earnings": "1988730000000",
+          "EPS": "9.36"
+        },
+        {
+          "year": 2020,
+          "DEratio": "1.47",
+          "PEratio": "28.95",
+          "earnings": "2018730000000",
+          "EPS": "8.29"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "companyId": 4,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "2.04",
+          "PEratio": "52.47",
+          "earnings": "5399670000000",
+          "EPS": "48.68"
+        },
+        {
+          "year": 2020,
+          "DEratio": "3.04",
+          "PEratio": "47.47",
+          "earnings": "6109670000000",
+          "EPS": "43.68"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "companyId": 5,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "1.92",
+          "PEratio": "22.24",
+          "earnings": "239800000000",
+          "EPS": "9.84"
+        },
+        {
+          "year": 2020,
+          "DEratio": "3.01",
+          "PEratio": "25.4",
+          "earnings": "315500000000",
+          "EPS": "10.06"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "companyId": 6,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "0.7006",
+          "PEratio": "18.49",
+          "earnings": "582890000000",
+          "EPS": "3.22"
+        },
+        {
+          "year": 2020,
+          "DEratio": "0.609",
+          "PEratio": "15.99",
+          "earnings": "573890000000",
+          "EPS": "2.22"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "companyId": 7,
+      "reportedResults": [
+        {
+          "year": 2021,
+          "DEratio": "0.51",
+          "PEratio": "7.61",
+          "earnings": "329690000000",
+          "EPS": "23.51"
+        },
+        {
+          "year": 2020,
+          "DEratio": "0.59",
+          "PEratio": "6.91",
+          "earnings": "336690000000",
+          "EPS": "21.55"
+        }
+      ]
+    }
+  ],
+  "fixedincome": [
+    {
+      "id": 1,
+      "ISIN": "XS0088317853",
+      "issuerId": 5,
+      "couponType": "fixed",
+      "couponFrequency": "12",
+      "couponRate": 6.5,
+      "maturity": "14/07/2023",
+      "yieldToMaturity": 2.303,
+      "currentYield": 6.16
+    },
+    {
+      "id": 2,
+      "ISIN": "US0063795423",
+      "issuerId": 1,
+      "couponType": "fixed",
+      "couponFrequency": "6",
+      "couponRate": 5.5,
+      "maturity": "14/12/2028",
+      "yieldToMaturity": 7.96,
+      "currentYield": 8.1
+    },
+    {
+      "id": 3,
+      "ISIN": "XS0148889420",
+      "issuerId": 1,
+      "couponType": "fixed",
+      "couponFrequency": "12",
+      "couponRate": 6.125,
+      "maturity": "07/06/2027",
+      "yieldToMaturity": 2.169,
+      "currentYield": 5.12
+    }
   ],
   "product-info": [
     {
@@ -25,8 +286,5 @@
       "productName": "test record",
       "description": "test description"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
