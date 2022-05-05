@@ -9,6 +9,23 @@
     { "id": 2, "companyId": 2, "Moody": "Aaa" },
     { "id": 3, "companyId": 3, "Moody": "Bbb" }
   ],
+  "product-info": [
+    {
+      "id": "product1",
+      "productName": "Harry Potter book",
+      "description": "A book about Harry Potter. I would say more but I haven't read it"
+    },
+    {
+      "id": "product2",
+      "productName": "Logitech keyboard",
+      "description": "The best keyboard ever. You should but it!"
+    },
+    {
+      "id": "Trilby",
+      "productName": "test record",
+      "description": "test description"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
