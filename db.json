@@ -286,5 +286,17 @@
       "productName": "test record",
       "description": "test description"
     }
+  ],
+  "nested": [
+    {
+    "rootObject": {
+        "sub-object": {
+            "works": true
+        }
+    },
+    "sub-object": {
+        "works": true
+    }
+}
   ]
 }
