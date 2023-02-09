@@ -1,4 +1,4 @@
-{ "nested": [
+{ "nested": 
     {
     "rootObject": {
         "sub-object": {
@@ -9,5 +9,5 @@
         "works": true
     }
 }
-  ]
+  
 }
