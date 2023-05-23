@@ -1,13 +1,22 @@
-{ "nested": 
+{
+    "product-info": [
     {
-    "rootObject": {
-        "sub-object": {
-            "works": "CHybaDziala"
-        }
+      "id": "product1",
+      "productName": "Harry Potter book",
+      "description": "A book about Harry Potter. I would say more but I haven't read it",
+      "averageRating": 6
     },
-    "sub-object": {
-        "works": true
+    {
+      "id": "product2",
+      "productName": "Logitech keyboard",
+      "description": "The best keyboard ever. You should but it!",
+      "averageRating": 4
+    },
+    {
+      "id": "Trilby",
+      "productName": "test record",
+      "description": "test description"
     }
+  ]
 }
-  
-}
+
